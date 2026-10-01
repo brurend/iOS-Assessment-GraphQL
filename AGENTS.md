@@ -1,5 +1,13 @@
 # AGENTS.md
 
+## Requirements
+
+- `docs/requirements.md` is the source of truth for assignment requirements.
+- Read it before planning or implementing project changes.
+- Do not infer additional product requirements from the GraphQL schema.
+- Do not replace technologies explicitly required by the assignment.
+- Keep implementation decisions separate from assignment requirements.
+
 ## Project
 
 This is an iOS take-home assignment built with Swift, SwiftUI, Apollo iOS,

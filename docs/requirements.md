@@ -40,7 +40,7 @@ This document is the operational source of truth for the iOS take-home assessmen
 - Apply `@MainActor` where appropriate.
 - Use Combine for search debouncing.
 - Use stable row identity across reloads and filtering.
-- A custom `ViewModifier` or `EnvironmentValues` extension is optional and should be introduced only when genuinely useful and reused by more than one view.
+- Custom `ViewModifier` and `EnvironmentValues` extensions are optional; if introduced, they should address a genuine need and be used by more than one view.
 
 ## Testing
 
