@@ -62,7 +62,7 @@ This document is the operational source of truth for the iOS take-home assessmen
 - The README must explain build and run steps, including the Xcode version, iOS target, and simulator.
 - The README must document key technical decisions, omissions, and what would be changed with more time.
 - Maintain production-quality code appropriate to the assignment's scope.
-- SwiftFormat and/or SwiftLint may be used.
+- Configure SwiftFormat and/or SwiftLint; using either one is sufficient.
 
 ## Interpretation Rule
 

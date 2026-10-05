@@ -47,6 +47,16 @@ The test suites cover required list loading outcomes, substituted repository beh
 
 The application scheme does not include the two package test suites; run them separately using either approach above.
 
+## Linting
+
+[SwiftLint](https://github.com/realm/SwiftLint) is configured at the repository root. After installing SwiftLint, run it from the repository root:
+
+```sh
+swiftlint lint --config .swiftlint.yml
+```
+
+The configuration lints the hand-written application, package, and test sources while excluding Apollo-generated Swift sources and build artifacts.
+
 ## Architecture
 
 ```text
