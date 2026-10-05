@@ -71,6 +71,8 @@ private func makeCoreFields(
     return CountriesAPI.CountryCoreFields(_dataDict: countryData)
 }
 
+// Parameters mirror the GraphQL fields needed to construct the mapping fixture.
+// swiftlint:disable:next function_parameter_count
 private func makeDetailsCountry(
     code: String,
     name: String,

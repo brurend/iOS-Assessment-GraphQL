@@ -1,0 +1,19 @@
+included:
+  - iOS-Assessment-GraphQL
+  - Packages/CountriesData/Package.swift
+  - Packages/CountriesData/Sources
+  - Packages/CountriesData/Tests
+  - Packages/CountriesUI/Package.swift
+  - Packages/CountriesUI/Sources
+  - Packages/CountriesUI/Tests
+
+excluded:
+  - .build
+  - build
+  - DerivedData
+  - Packages/**/.build
+  - Packages/**/.swiftpm
+  - Packages/CountriesData/Sources/CountriesData/Generated
+
+trailing_comma:
+  mandatory_comma: true
