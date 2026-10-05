@@ -26,6 +26,14 @@ let package = Package(
                 .product(name: "Apollo", package: "apollo-ios"),
             ]
         ),
+        .testTarget(
+            name: "CountriesDataTests",
+            dependencies: [
+                "CountriesData",
+                .product(name: "Apollo", package: "apollo-ios"),
+                .product(name: "ApolloAPI", package: "apollo-ios"),
+            ]
+        ),
     ],
     swiftLanguageModes: [.v6]
 )
