@@ -21,6 +21,10 @@ let package = Package(
             name: "CountriesUI",
             dependencies: ["CountriesData"]
         ),
+        .testTarget(
+            name: "CountriesUITests",
+            dependencies: ["CountriesUI", "CountriesData"]
+        ),
     ],
     swiftLanguageModes: [.v6]
 )
