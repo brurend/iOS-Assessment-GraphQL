@@ -13,8 +13,19 @@ let package = Package(
             targets: ["CountriesData"]
         ),
     ],
+    dependencies: [
+        .package(
+            url: "https://github.com/apollographql/apollo-ios.git",
+            exact: "2.4.0"
+        ),
+    ],
     targets: [
-        .target(name: "CountriesData"),
+        .target(
+            name: "CountriesData",
+            dependencies: [
+                .product(name: "Apollo", package: "apollo-ios"),
+            ]
+        ),
     ],
     swiftLanguageModes: [.v6]
 )

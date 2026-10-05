@@ -1,0 +1,5 @@
+query CountryList($filter: CountryFilterInput) {
+  countries(filter: $filter) {
+    ...CountryCoreFields
+  }
+}

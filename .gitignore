@@ -65,6 +65,9 @@ playground.xcworkspace
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .swiftpm/xcode/xcuserdata/
 
+# Apollo iOS code generation CLI installed for CountriesData
+/Packages/CountriesData/apollo-ios-cli
+
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However

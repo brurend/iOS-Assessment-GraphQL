@@ -28,6 +28,11 @@ This document is the operational source of truth for the iOS take-home assessmen
 ## Networking and GraphQL
 
 - Use Apollo iOS.
+- There is no separate starter project; the original brief's statement that Apollo is already configured is outdated.
+- Set up Apollo iOS and Apollo code generation as part of the assessment.
+- Download the GraphQL schema from `https://countries.trevorblades.com`.
+- Keep the schema and code-generation configuration in the repository so code generation is reproducible.
+- Document the steps required to regenerate Apollo-generated code in the README.
 - Define separate GraphQL operations for the country list and country detail.
 - Use a GraphQL fragment for fields shared by those operations.
 - Keep the network and data layer behind a protocol so it can be substituted in tests.
