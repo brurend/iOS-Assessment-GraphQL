@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		000000000000000200000001 /* CountriesUI in Frameworks */ = {isa = PBXBuildFile; productRef = 000000000000000200000002 /* CountriesUI */; };
+		000000000000000200000004 /* CountriesData in Frameworks */ = {isa = PBXBuildFile; productRef = 000000000000000200000005 /* CountriesData */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		000000000000000130000000 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			files = (
+				000000000000000200000004 /* CountriesData in Frameworks */,
 				000000000000000200000001 /* CountriesUI in Frameworks */,
 			);
 		};
@@ -66,6 +68,7 @@
 			);
 			name = "iOS-Assessment-GraphQL";
 			packageProductDependencies = (
+				000000000000000200000005 /* CountriesData */,
 				000000000000000200000002 /* CountriesUI */,
 			);
 			productName = MyApp;
@@ -97,6 +100,7 @@
 			mainGroup = 000000000000000000000001;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
+				000000000000000200000006 /* XCLocalSwiftPackageReference "CountriesData" */,
 				000000000000000200000003 /* XCLocalSwiftPackageReference "CountriesUI" */,
 			);
 			preferredProjectObjectVersion = 90;
@@ -362,6 +366,10 @@
 /* End XCConfigurationList section */
 
 /* Begin XCLocalSwiftPackageReference section */
+		000000000000000200000006 /* XCLocalSwiftPackageReference "CountriesData" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/CountriesData;
+		};
 		000000000000000200000003 /* XCLocalSwiftPackageReference "CountriesUI" */ = {
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Packages/CountriesUI;
@@ -369,6 +377,10 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		000000000000000200000005 /* CountriesData */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CountriesData;
+		};
 		000000000000000200000002 /* CountriesUI */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = CountriesUI;
